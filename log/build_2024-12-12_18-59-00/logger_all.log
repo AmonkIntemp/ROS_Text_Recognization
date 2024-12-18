@@ -1,0 +1,179 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.107s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x716a05846620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x716a05808070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x716a05808070>>)
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.268s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amonk/MyWorkSpace/test/py_cpp'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(publish_python_topic) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'publish_python_topic' with type 'ros.ament_python' and name 'publish_python_topic'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(sub_cpp_topic) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'sub_cpp_topic' with type 'ros.ament_cmake' and name 'sub_cpp_topic'
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/amonk/MyWorkSpace/Unitree/UnitreeRos2/unitree_ros2/cyclonedds_ws/install
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'publish_python_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'publish_python_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic', 'merge_install': False, 'path': '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_cpp_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'sub_cpp_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic', 'merge_install': False, 'path': '/home/amonk/MyWorkSpace/test/py_cpp/sub_cpp_topic', 'symlink_install': False, 'test_result_base': None}
+[0.348s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic' with build type 'ament_python'
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('publish_python_topic', 'ament_prefix_path')
+[0.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/hook/ament_prefix_path.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/hook/ament_prefix_path.dsv'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/hook/ament_prefix_path.sh'
+[0.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amonk/MyWorkSpace/test/py_cpp/sub_cpp_topic' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amonk/MyWorkSpace/test/py_cpp/sub_cpp_topic'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic'
+[0.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/amonk/MyWorkSpace/test/py_cpp/sub_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publish_python_topic build --build-base /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build install --record /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/install.log --single-version-externally-managed install_data
+[1.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publish_python_topic build --build-base /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build install --record /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/install.log --single-version-externally-managed install_data
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic' for CMake module files
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic' for CMake config files
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/pkgconfig/publish_python_topic.pc'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages'
+[1.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('publish_python_topic', 'pythonpath')
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/hook/pythonpath.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/hook/pythonpath.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/hook/pythonpath.sh'
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/bin'
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publish_python_topic)
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/package.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/package.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/package.sh'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/package.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic/package.zsh'
+[1.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/colcon-core/packages/publish_python_topic)
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/amonk/MyWorkSpace/test/py_cpp/sub_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic
+[1.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic -- -j8 -l8
+[7.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic -- -j8 -l8
+[7.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic
+[7.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_cpp_topic)
+[7.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/amonk/MyWorkSpace/test/py_cpp/build/sub_cpp_topic
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic' for CMake module files
+[7.343s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic' for CMake config files
+[7.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_cpp_topic', 'cmake_prefix_path')
+[7.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/hook/cmake_prefix_path.ps1'
+[7.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/hook/cmake_prefix_path.dsv'
+[7.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/hook/cmake_prefix_path.sh'
+[7.345s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/lib'
+[7.345s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/bin'
+[7.345s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/lib/pkgconfig/sub_cpp_topic.pc'
+[7.345s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/lib/python3.10/site-packages'
+[7.346s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/bin'
+[7.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.ps1'
+[7.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.dsv'
+[7.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.sh'
+[7.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.bash'
+[7.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.zsh'
+[7.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/colcon-core/packages/sub_cpp_topic)
+[7.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_cpp_topic)
+[7.349s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic' for CMake module files
+[7.349s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic' for CMake config files
+[7.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_cpp_topic', 'cmake_prefix_path')
+[7.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/hook/cmake_prefix_path.ps1'
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/hook/cmake_prefix_path.dsv'
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/hook/cmake_prefix_path.sh'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/lib'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/bin'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/lib/pkgconfig/sub_cpp_topic.pc'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/lib/python3.10/site-packages'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/bin'
+[7.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.ps1'
+[7.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.dsv'
+[7.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.sh'
+[7.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.bash'
+[7.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/sub_cpp_topic/package.zsh'
+[7.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amonk/MyWorkSpace/test/py_cpp/install/sub_cpp_topic/share/colcon-core/packages/sub_cpp_topic)
+[7.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.354s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.362s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.362s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.362s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.419s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.419s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amonk/MyWorkSpace/test/py_cpp/install/local_setup.ps1'
+[7.420s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amonk/MyWorkSpace/test/py_cpp/install/_local_setup_util_ps1.py'
+[7.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amonk/MyWorkSpace/test/py_cpp/install/setup.ps1'
+[7.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amonk/MyWorkSpace/test/py_cpp/install/local_setup.sh'
+[7.423s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amonk/MyWorkSpace/test/py_cpp/install/_local_setup_util_sh.py'
+[7.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amonk/MyWorkSpace/test/py_cpp/install/setup.sh'
+[7.424s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amonk/MyWorkSpace/test/py_cpp/install/local_setup.bash'
+[7.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amonk/MyWorkSpace/test/py_cpp/install/setup.bash'
+[7.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amonk/MyWorkSpace/test/py_cpp/install/local_setup.zsh'
+[7.426s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amonk/MyWorkSpace/test/py_cpp/install/setup.zsh'

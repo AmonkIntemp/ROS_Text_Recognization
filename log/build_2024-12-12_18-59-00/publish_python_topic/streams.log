@@ -1,0 +1,38 @@
+[0.591s] Invoking command in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publish_python_topic build --build-base /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build install --record /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/install.log --single-version-externally-managed install_data
+[0.756s] running egg_info
+[0.756s] creating ../build/publish_python_topic/publish_python_topic.egg-info
+[0.756s] writing ../build/publish_python_topic/publish_python_topic.egg-info/PKG-INFO
+[0.756s] writing dependency_links to ../build/publish_python_topic/publish_python_topic.egg-info/dependency_links.txt
+[0.756s] writing entry points to ../build/publish_python_topic/publish_python_topic.egg-info/entry_points.txt
+[0.756s] writing requirements to ../build/publish_python_topic/publish_python_topic.egg-info/requires.txt
+[0.757s] writing top-level names to ../build/publish_python_topic/publish_python_topic.egg-info/top_level.txt
+[0.757s] writing manifest file '../build/publish_python_topic/publish_python_topic.egg-info/SOURCES.txt'
+[0.758s] reading manifest file '../build/publish_python_topic/publish_python_topic.egg-info/SOURCES.txt'
+[0.758s] adding license file 'LICENSE'
+[0.758s] writing manifest file '../build/publish_python_topic/publish_python_topic.egg-info/SOURCES.txt'
+[0.758s] running build
+[0.758s] running build_py
+[0.759s] creating /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build
+[0.759s] creating /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build/lib
+[0.759s] creating /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build/lib/publish_python_topic
+[0.759s] copying publish_python_topic/__init__.py -> /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build/lib/publish_python_topic
+[0.759s] copying publish_python_topic/pub_node.py -> /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build/lib/publish_python_topic
+[0.759s] running install
+[0.759s] running install_lib
+[0.760s] creating /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic
+[0.760s] copying /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build/lib/publish_python_topic/__init__.py -> /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic
+[0.760s] copying /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build/lib/publish_python_topic/pub_node.py -> /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic
+[0.760s] byte-compiling /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic/__init__.py to __init__.cpython-310.pyc
+[0.760s] byte-compiling /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic/pub_node.py to pub_node.cpython-310.pyc
+[0.761s] running install_data
+[0.761s] creating /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/ament_index
+[0.761s] creating /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/ament_index/resource_index
+[0.761s] creating /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/ament_index/resource_index/packages
+[0.761s] copying resource/publish_python_topic -> /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/ament_index/resource_index/packages
+[0.761s] copying package.xml -> /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/share/publish_python_topic
+[0.761s] running install_egg_info
+[0.762s] Copying ../build/publish_python_topic/publish_python_topic.egg-info to /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic-0.0.0-py3.10.egg-info
+[0.763s] running install_scripts
+[0.778s] Installing pub_node script to /home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/publish_python_topic
+[0.778s] writing list of installed files to '/home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/install.log'
+[0.796s] Invoked command in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amonk/MyWorkSpace/test/py_cpp/install/publish_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/publish_python_topic build --build-base /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/build install --record /home/amonk/MyWorkSpace/test/py_cpp/build/publish_python_topic/install.log --single-version-externally-managed install_data
