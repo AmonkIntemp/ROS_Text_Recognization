@@ -1,0 +1,25 @@
+[0.632s] Invoking command in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic': PYTHONPATH=/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/install/publish_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/publish_python_topic build --build-base /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/build install --record /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/install.log --single-version-externally-managed install_data
+[0.782s] running egg_info
+[0.782s] writing build/publish_python_topic/publish_python_topic.egg-info/PKG-INFO
+[0.783s] writing dependency_links to build/publish_python_topic/publish_python_topic.egg-info/dependency_links.txt
+[0.783s] writing entry points to build/publish_python_topic/publish_python_topic.egg-info/entry_points.txt
+[0.783s] writing requirements to build/publish_python_topic/publish_python_topic.egg-info/requires.txt
+[0.783s] writing top-level names to build/publish_python_topic/publish_python_topic.egg-info/top_level.txt
+[0.785s] reading manifest file 'build/publish_python_topic/publish_python_topic.egg-info/SOURCES.txt'
+[0.786s] adding license file 'LICENSE'
+[0.786s] writing manifest file 'build/publish_python_topic/publish_python_topic.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] copying publish_python_topic/pub_node.py -> /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/build/lib/publish_python_topic
+[0.788s] running install
+[0.788s] running install_lib
+[0.789s] copying /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/build/lib/publish_python_topic/pub_node.py -> /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic
+[0.789s] byte-compiling /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic/pub_node.py to pub_node.cpython-310.pyc
+[0.790s] running install_data
+[0.790s] running install_egg_info
+[0.791s] removing '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.792s] Copying build/publish_python_topic/publish_python_topic.egg-info to /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/install/publish_python_topic/lib/python3.10/site-packages/publish_python_topic-0.0.0-py3.10.egg-info
+[0.793s] running install_scripts
+[0.805s] Installing pub_node script to /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/install/publish_python_topic/lib/publish_python_topic
+[0.805s] writing list of installed files to '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/install.log'
+[0.819s] Invoked command in '/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic' returned '0': PYTHONPATH=/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/install/publish_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/publish_python_topic build --build-base /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/build install --record /home/amonk/MyWorkSpace/test/py_cpp/publish_python_topic/build/publish_python_topic/install.log --single-version-externally-managed install_data
